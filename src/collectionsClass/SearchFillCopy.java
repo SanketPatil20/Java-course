@@ -7,11 +7,11 @@ public class SearchFillCopy {
 		// TODO Auto-generated method stub
 
 		List<Integer> list = new ArrayList<>();
-		list.add(80);
-		list.add(70);
+		list.add(10);
+		list.add(20);
 		list.add(30);
 		list.add(40);
-		list.add(20);
+		list.add(50);
 		
 		System.out.println(list);
 		
@@ -20,11 +20,8 @@ public class SearchFillCopy {
 		Collections.sort(list);
 		System.out.println("List in ascending order: "+list);
 		
-//		List<Integer> sortedList = list.stream().sorted().collect(Collectors.toList());
-//		System.out.println(sortedList);
 		
-		Collections.sort(list, Collections.reverseOrder());
-		System.out.println("ArrayList in desc order: "+ list);
+		
 				
 	}
 
